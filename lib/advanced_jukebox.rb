@@ -90,3 +90,5 @@ def run(my_songs)
   exit_jukebox
   
 end
+
+system "open /home/wchabs/jukebox-cli-nyc-web-062518/audio/Emerald-Park/01.mp3"
