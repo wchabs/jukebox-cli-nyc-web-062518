@@ -13,8 +13,11 @@
 # }
 
 def help
-  #this method should be the same as in jukebox.rb
-
+  puts "I accept the following commamds:"
+  puts "- help : displays this help message"
+  puts "- list : displays a list of songs you can play"
+  puts "- play : lets you choose a song to play"
+  puts "- exit : exits this program"
 end
 
 
@@ -37,9 +40,34 @@ def play(my_songs)
 end
 
 def exit_jukebox
-  #this method is the same as in jukebox.rb
+  puts "Goodbye"
 end
 
 def run(my_songs)
-  #this method is the same as in jukebox.rb
+  help
+  puts "Please enter a command:"
+  user_input = gets.chomp
+  
+  until user_input == "exit"
+    case user_input
+    when "help"
+      help
+      puts "Please enter a command:"
+      user_input = gets.chomp
+    when "list"
+      list(my_songs)
+      puts "Please enter a command:"
+      user_input = gets.chomp
+    when "play"
+      play(my_songs)
+      puts "Please enter a command:"
+      user_input = gets.chomp
+    else
+      puts "Please enter a command:"
+      user_input = gets.chomp
+    end
+  end
+  
+  exit_jukebox
+  
 end
