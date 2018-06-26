@@ -91,4 +91,4 @@ def run(my_songs)
   
 end
 
-system("open "/home/wchabs/jukebox-cli-nyc-web-062518/audio/Emerald-Park/01.mp3"")
+system("open '/home/wchabs/jukebox-cli-nyc-web-062518/audio/Emerald-Park/01.mp3'")
