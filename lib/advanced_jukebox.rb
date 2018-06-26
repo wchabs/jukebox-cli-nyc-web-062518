@@ -52,6 +52,10 @@ def play(my_songs)
   song_request = gets.chomp
   
   if my_songs.keys.include?(song_request)
+    system 'open my_songs[song_request]'
+  else
+    puts "Invalid choice"
+  end
 end
 
 def exit_jukebox
