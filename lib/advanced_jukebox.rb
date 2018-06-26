@@ -51,7 +51,7 @@ def play(my_songs)
   puts "Please enter a song name:"
   song_request = gets.chomp
   
-  
+  if my_songs.keys.include?(song_request)
 end
 
 def exit_jukebox
