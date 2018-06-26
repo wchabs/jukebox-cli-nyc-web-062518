@@ -9,7 +9,7 @@
 # "Guiding Light" => '/home/wchabs/jukebox-cli/audio/Emerald-Park/04.mp3',
 # "Wolf" => '/home/wchabs/jukebox-cli/audio/Emerald-Park/05.mp3',
 # "Blue" => '/home/wchabs/jukebox-cli/audio/Emerald-Park/06.mp3',
-# "Graduation Failed" => '/home/wchabs/jukebox-cli/audio/Emerald-Park/07.mp3'
+# "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
 # }
 
 def help
